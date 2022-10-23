@@ -24,23 +24,38 @@
 
 		<!-- offcanvas-start -->
 		<div class="offcanvas-menu">
-			<ul class="offmenu" id="menuParent">
-				<a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-				<li class="active"><a href="#">HOME</a></li>
-				<li><a href="#">ABOUT US</a></li>
-				<li class="dropdown">
-					<a href="#" data-bs-toggle="collapse" data-bs-target='#drop-menu1'>OUR HORSES</a>
-					<div class="dropdown-menu-custom collapse" id="drop-menu1" data-bs-parent="#menuParent">
-						<ul>
-							<li><a href="#">YEARLINGS</a></li>
-							<li><a href="#">2 YEAR OLDS</a></li>
-							<li><a href="#">3 YEAR OLD PLUS</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="#">LATEST NEWS</a></li>
-				<li><a href="#">CONTACT & FIND US</a></li>
-			</ul>
+			<div class="offmenu" id="menuParent">
+				<a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+				<ul class="mobile-menu">
+					<li>
+						<a href="#">
+							<span class="txt">Why LetzChat?</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="txt">How it works</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="txt">Pricing</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="txt">Our work</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="txt">More</span>
+							<i class="fas fa-caret-down d-icon ms-2"></i>
+						</a>
+					</li>
+				</ul>
+				<a href="#" class="default-button default-button--sm mt-3">Get a Demo</a>
+			</div>
 		</div>
 		<div class="offcanvas-overlay"></div>
 		<!-- offcanvas-start-end -->
@@ -54,7 +69,7 @@
 							<img src="images/logo.svg" alt="">
 						</a>
 	
-						<div class="main-menu">
+						<div class="main-menu d-xl-block d-none">
 							<ul>
 								<li>
 									<a href="#">
@@ -85,12 +100,16 @@
 							</ul>
 						</div>
 	
-						<div class="header-right">
+						<div class="header-right d-xl-flex d-none">
 							<a href="#" class="hr-a">
 								Log in
 							</a>
 							<a href="#" class="default-button default-button--sm">Get a Demo</a>
 						</div>
+
+						<a href="javascript:void(0)" class="offcanvas-open d-xl-none">
+							<i class="far fa-bars"></i>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -160,20 +179,47 @@
 			<!-- card-x-section -->
 			<section class="card-x-section">
 				<div class="container">
-					<div class="card-x-section-iner">
+					<div class="card-x-section-inner">
+						
 						<div class="card-x-wrapper">
 							<!-- single-card-x -->
-							<a href="#" class="single-card-x">
-								<img class="card-img" src="images/card-x1.png" alt="">
-							</a>
+							<div class="single-card-x" style="background: url('images/card-x1-bg.png') no-repeat center center/cover;">
+								<div class="card-x-cont">
+									<h3>Trusted by 25k 
+										<br> 
+										brands & agencies</h3>
+									<a class="anc" href="#">Read customer stories <i class="far fa-chevron-right"></i></a>
+								</div>
+							</div>
 							<!-- single-card-x-end -->
 							<!-- single-card-x -->
-							<a href="#" class="single-card-x">
-								<img class="card-img" src="images/card-x2.png" alt="">
-							</a>
+							<div class="single-card-x single-card-x-white" style="background: url('images/card-x2-bg.png') no-repeat center center/cover;">
+								<div class="card-x-cont">
+									<h3>94% customer 
+										<br>
+										satisfaction</h3>
+									<a class="anc" href="#">Read 425 reviews <i class="far fa-chevron-right"></i></a>
+									<div class="card-bt">
+										<div class="rating-xc">
+											<h4 class="mb-0">4.6</h4>
+											<ul>
+												<li class="active"><i class="fas fa-star"></i></li>
+												<li class="active"><i class="fas fa-star"></i></li>
+												<li class="active"><i class="fas fa-star"></i></li>
+												<li class="active"><i class="fas fa-star"></i></li>
+												<li class="active"><i class="fas fa-star"></i></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="lt-txt">
+									<p> Zina Aljaratli
+										<br>
+										Surreal Design Studio</p>
+								</div>
+							</div>
 							<!-- single-card-x-end -->
 						</div>
-						
 					</div>
 				</div>
 			</section>

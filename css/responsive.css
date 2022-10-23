@@ -4,21 +4,536 @@
     .how-work-wrapper {
         --inner-space: 80px;
     }
+
+
+    .card-x-cont {
+        height: 317px;
+    }
 }
 
 
 @media (max-width: 1199px) {
- 
+    .header-in {
+        /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    }
+    .header-section-inner {
+        position: relative;
+        justify-content: center;
+    }
+    .offcanvas-open {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translate(0,-50%);
+    }
+
+
+    .join-sec-title .left-side {
+        width: 47%;
+        flex-shrink: 0;
+    }
+    .join-sec-title .right-side {
+        width: 46%;
+    }
+
+
+    .card-x-section-inner {
+        max-width: 724px;
+        margin: 0 auto;
+    }
+    .single-card-x {
+        border-radius: 7px;
+    }
+    .card-x-cont {
+        padding: 17px;
+        height: 195px;
+    }
+    .card-x-cont h3 {
+        margin: 0 0 5px;
+        font-size: 20px;
+    }
+    .card-x-cont .anc {
+        font-size: 10px;
+    }
+    .card-x-cont .anc i {
+        font-size: 8px;
+        margin: 0 0 0 2px;
+    }
+    .single-card-x .lt-txt p {
+        font-size: 8px;
+    }
+    .single-card-x .lt-txt {
+        bottom: 13px;
+        right: 15px;
+    }
+    .rating-xc h4 {
+        font-size: 22px;
+        margin-right: 7px;
+        font-weight: 600;
+    }
+    .rating-xc ul li {
+        font-size: 16px;
+        margin-right: 7px;
+    }
+    .single-card-x .card-bt {
+        padding: 10px 0;
+    }
+    
+
 }
 
 
 @media (max-width: 991px) {
- 
+    .default-button.default-button--sm {
+        padding: 9px 15px;
+    }
+
+    .hero-content .h1 {
+        font-size: 45px;
+    }
+    .hero-content p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .default-button {
+        padding: 12px 20px;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    .hero-content .bottom-button {
+        margin: 16px 0 0;
+        min-width: 160px;
+    }
+    .single-brand {
+        margin-bottom: 25px;
+        width: 33.33%;
+    }
+    .brands-wrapper {
+        flex-wrap: wrap;
+    }
+    .brands-title {
+        margin: 0 0 18px;
+    }
+    .card-x-wrapper {
+        --item: 1;
+        --inner-space: 28px;
+    }
+    .card-x-section-inner {
+        max-width: 343px;
+    }
+    .h2 {
+        font-size: 35px;
+        margin: 0 0 15px;
+    }
+    body {
+        font-size: 16px;
+    }
+
+
+    .design-slide {
+        width: 327px;
+    }
+    .design-slide .image .caption {
+        padding: 5px 18px;
+        font-size: 18px;
+    }
+    .slider-arrow1 .owl-nav button {
+        height: 36px;
+        width: 36px;
+        font-size: 15px !important;
+    }
+    .slider-arrow2 .owl-nav button {
+        height: 36px;
+        width: 36px;
+        font-size: 15px !important;
+    }
+
+    .testimonial-slider {
+        --arrow-offset: -9px;
+    }
+    .testimonial-slide {
+        flex-wrap: wrap;
+    }
+    .testimonial-slide .image-side {
+        margin: 25px auto;
+    }
+
+    .how-work-wrapper {
+        --item: 1;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .dt-shape-left1 {
+        width: 300px;
+    }
+    .dt-shape-right-1 {
+        width: 300px;
+    }
+    .dt-shape-right-2 {
+        top: 6px;
+        width: 110px;
+    }
+
+
+    .plan-items-wrapper {
+        --item: 2;
+    }
+    .plan-sec-title .img-txt {
+        width: 327px;
+    }
+
+    .join-sec-title {
+        flex-direction: column;
+    }
+    .join-sec-title .left-side {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 40px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .join-sec-title .right-side {
+        width: 100%;
+        max-width: 420px;
+    }
+    .joined-c-slide {
+        width: 327px;
+    }
+    .joined-client-slider {
+        --arrow-offset: 13px;
+    }
+
+
+    .design-slider {
+        --arrow-offset: 13px; 
+    }
+
+
+
+    .fe-slide {
+        flex-wrap: wrap;
+    }
+    .fe-slide .content-side {
+        width: 100%;
+        order: -1;
+    }
+    .fe-slider {
+        --arrow-offset: -11px;
+        --arrow-top-lift: -118px;
+    }
+    .slider-dots1 .owl-dot {
+        margin: 4px;
+        height: 14px;
+        width: 14px;
+    }
+    .fe-slider .owl-dots {
+        margin: 25px 0 0;
+    }
+
+
+    .faq-section-inner {
+        flex-wrap: wrap;
+    }
+    .faq-title-side .faq-title-image {
+        margin: 30px 0 0;
+        direction: ltr;
+    }
+    .faq-title-side .faq-title-image img {
+        width: 300px;
+    }
+    .faq-title-side {
+        width: 100%;
+        margin: 0 0px 20px 0;
+    }
+    .ready-section-cbox .content-side {
+        padding: 30px 30px;
+    }
+    .ready-section-cbox .ready-person-image {
+        right: 26px;
+        width: 290px;
+    }
+
+
+
+    .footer-section-inner {
+        padding: 0 25px;
+        flex-wrap: wrap;
+    }
+    .footer-section::before {
+        top: 59px;
+    }
+    .footer-logo-column {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-logo-column .footer-title-bx {
+        padding: 0 0 7px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+    .footer-menu-column {
+        margin: 33px 0 0;
+        width: 50%;
+    }
+    .footer-title-bx {
+        height: initial;
+    }
+    .footer-menu {
+        padding: 14px 0 0;
+    }
+    .f-social li a {
+        font-size: 12px;
+        height: 24px;
+        width: 24px;
+    }
+    .f-social li {
+        margin-right: 17px;
+    }
+    .copy-right {
+        margin: 12px 0 0 0px;
+        font-size: 12px;
+    }
+    .flc-d-with p {
+        font-size: 14px;
+    }
+    .footer-menu-column h4 {
+        font-size: 16px;
+    }
+    .footer-menu li a {
+        font-size: 14px;
+    }
+
+
+
 }
 
 
 @media (max-width: 768px) {
- 
+    .offcanvas-open {
+        font-size: 19px;
+    }
+
+    .hero-content .h1 {
+        font-size: 32px;
+    }
+    .header-logo {
+        width: 132px;
+    }
+    .hero-section {
+        padding: 40px 0;
+    }
+
+
+    .brands-wrapper {
+        padding: 0 15px;
+    }
+    .single-brand {
+        margin-bottom: 25px;
+        width: 50%;
+        padding-right: 15px;
+    }
+    .brand-section {
+        padding: 30px 0 30px;
+    }
+
+
+    .h2 {
+        font-size: 24px;
+        margin: 0 0 15px;
+    }
+    .design-section {
+        padding: 10px 0;
+    }
+    .testimonial-slide .content-side h3 {
+        font-size: 24px;
+    }
+    .testimonial-slide .content-side p {
+        font-size: 14px;
+    }
+    .testimonial-slide {
+        padding: 30px 25px;
+    }
+    .testimonial-section {
+        padding: 50px 0 70px;
+    }
+
+
+    .how-work-single .image {
+        width: 145px;
+        height: 145px;
+        margin: 0 0 20px;
+    }
+    .how-work-single .content h3 {
+        font-size: 16px;
+    }
+    .how-work-single .content h3 .big {
+        font-size: 40px;
+        margin: 0px 9px 0 0;
+    }
+    .how-work-single .content p {
+        font-size: 12px;
+    }
+    .how-work-wrapper {
+        --inner-space: 50px;
+        max-width: 257px;
+    }
+    .how-work-sec-title {
+        margin: 0 0 35px;
+    }
+    .how-work-section {
+        padding: 60px 0 90px;
+    }
+
+
+    .dt-shape-left1 {
+        width: 190px;
+    }
+    .dt-shape-right-1 {
+        width: 190px;
+    }
+    .dt-shape-right-2 {
+        top: 6px;
+        width: 66px;
+    }
+    .dt-sec-title {
+        margin: 0 0 45px;
+    }
+    .dt-cards-wrapper .dt-card {
+        height: initial;
+    }
+
+
+    .plan-items-wrapper {
+        --item: 1;
+        --bt-space: 45px;
+    }
+    .plan-item .icon {
+        width: 56px;
+        margin: 0 10px 0 0;
+    }
+    .plan-sec-title .img-txt {
+        width: 233px;
+    }
+    .plan-sec-title {
+        margin: 0 0 40px;
+    }
+    .plan-item .content h4 {
+        font-size: 18px;
+        margin: 0 0 8px;
+    }
+    .plan-item .content p {
+        font-size: 14px;
+    }
+    .plan-section {
+        padding: 50px 0;
+    }
+    .plan-section-inner {
+        padding: 0 10px;
+    }
+
+
+
+    .join-sec-title .left-side .rating-row-ttl {
+        flex-direction: column;
+    }
+    .rating-row-ttl .rat-u {
+        margin: 0 0px 15px 0;
+    }
+    .rating-row-ttl .rat-u li {
+        margin-right: 8px;
+        font-size: 15.5px;
+    }
+    .join-sec-title .left-side .h2 {
+        margin: 0 0 20px;
+        font-size: 32px;
+    }
+    .join-section {
+        padding: 60px 0 55px;
+    }
+
+
+    .fe-slide .content-side h3 {
+        font-size: 18px;
+        margin: 0 0 12px;
+    }
+    .fe-slide .content-side p {
+        font-size: 14px;
+    }
+    .fe-slide .content-side .bt-name h4 {
+        font-size: 14px;
+    }
+    .fe-slide .content-side .bt-name p {
+        font-size: 14px;
+    }
+    .fe-slide .content-side .bt-name {
+        padding: 9px 0 0;
+    }
+    .fe-slide .content-side {
+        padding: 25px 14px;
+    }
+    .fe-section {
+        padding: 50px 0;
+    }
+
+
+    .faq-section {
+        padding: 50px 0 60px;
+    }
+    .faq-title-side .faq-title-image img {
+        width: 185px;
+    }
+    .faq-title-side .faq-title-image {
+        margin: -15px 0 0;
+    }
+    .single-faq .faq-title {
+        font-size: 14px;
+        padding: 16px 22px;
+    }
+    .single-faq .collapsed-content-inner p {
+        font-size: 13px;
+    }
+    .single-faq .collapsed-content-inner {
+        padding: 0px 23px 20px;
+    }
+
+
+    .h2 {
+        font-size: 18px;
+        margin: 0 0 6px;
+    }
+    .ready-section-cbox p {
+        font-size: 12px;
+    }
+    .ready-section-cbox .ready-person-image {
+        right: -7px;
+        width: 150px;
+    }
+    .ready-section-cbox .content-side .bottom-button-row .button {
+        margin-right: 9px;
+        min-width: 91px;
+        font-size: 12px;
+        padding: 7px 5px;
+    }
+    .ready-section-cbox .content-side {
+        padding: 19px 15px;
+    }
+    .ready-section-cbox {
+        padding-right: 130px;
+        border-radius: 8px;
+    }
+    .sec-cont-blk .bottom-button-row {
+        margin: 2px 0 0;
+    }
+    .default-button .i-f {
+        margin: 0 4px 0 0;
+        transform: scale(1.2);
+    }
+
 }
 
 
@@ -27,6 +542,16 @@
 }
 
 
-@media (max-width: 390px) {
- 
+@media (max-width: 370px) {
+    .design-slide {
+        width: 296px;
+    }
+
+    .joined-c-slide {
+        width: 296px;
+    }
+
+    .card-x-cont {
+        height: 169px;
+    }
 }
