@@ -135,7 +135,7 @@
     }
     .design-slide .image .caption {
         padding: 5px 18px;
-        font-size: 18px;
+        font-size: 18.86x;
     }
     .slider-arrow1 .owl-nav button {
         height: 36px;
@@ -320,6 +320,7 @@
 
     .hero-content .h1 {
         font-size: 32px;
+        line-height: 1.21875;
     }
     .header-logo {
         width: 132px;
@@ -343,8 +344,11 @@
 
 
     .h2 {
-        font-size: 24px;
+        font-size: 32px;
         margin: 0 0 15px;
+    }
+    .design-sec-title .h2 {
+        font-size: 24px;
     }
     .design-section {
         padding: 10px 0;
@@ -356,10 +360,16 @@
         font-size: 14px;
     }
     .testimonial-slide {
-        padding: 30px 25px;
+        padding: 30px 18px;
     }
     .testimonial-section {
         padding: 50px 0 70px;
+    }
+    .testimonial-slide .content-side .clnt-meta .cnt h4 {
+        font-size: 12px;
+    }
+    .c-star li {
+        font-size: 14px;
     }
 
 
@@ -450,7 +460,6 @@
     }
     .join-sec-title .left-side .h2 {
         margin: 0 0 20px;
-        font-size: 32px;
     }
     .join-section {
         padding: 60px 0 55px;
@@ -458,8 +467,11 @@
 
 
     .fe-slide .content-side h3 {
-        font-size: 18px;
+        font-size: 28px;
         margin: 0 0 12px;
+    }
+    .fe-slide .content-side h3 .quote {
+        margin-left: -12px;
     }
     .fe-slide .content-side p {
         font-size: 14px;
@@ -481,6 +493,9 @@
     }
 
 
+    .faq-title-side .h2 {
+        font-size: 40px;
+    }
     .faq-section {
         padding: 50px 0 60px;
     }
@@ -502,7 +517,7 @@
     }
 
 
-    .h2 {
+    .ready-section-cbox .h2 {
         font-size: 18px;
         margin: 0 0 6px;
     }
@@ -553,5 +568,13 @@
 
     .card-x-cont {
         height: 169px;
+    }
+
+    .h2 {
+        font-size: 28px;
+    }
+
+    .faq-title-side .h2 {
+        font-size: 33px;
     }
 }
